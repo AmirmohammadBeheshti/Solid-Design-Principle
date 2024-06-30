@@ -26,3 +26,9 @@ This means that anywhere you use an object of type T, you should be able to use 
 
 The program should continue to function correctly without any changes in its behavior.
 This implies that S must meet the expectations set by T's contract, including method behavior, performance characteristics, and any invariants or preconditions.
+
+
+
+the principle states that objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program.    
+
+In simpler terms, if you have a base class and a derived class, you should be able to replace the base class with the derived class without altering the behavior or the expected outcomes of the program. This ensures that a subclass can stand in for its superclass and behave in the same way.
